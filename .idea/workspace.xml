@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4040bf75-e40e-475d-8210-a69d5092a63d" name="Changes" comment="Tarvara_arendus" />
+    <list default="true" id="4040bf75-e40e-475d-8210-a69d5092a63d" name="Changes" comment="Tarvara_arendus">
+      <change afterPath="$PROJECT_DIR$/Ylesanne_1/Foor_Raivo_Arras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ylesanne_1/Lumemees_Raivo_Arras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ylesanne_2/Ylesanne2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ylesanne_2/bg_shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ylesanne_2/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ylesanne_2/seller.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +75,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1706554629235</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Tarvara_arendus">
+      <option name="closed" value="true" />
+      <created>1706554895809</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1706554895809</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
