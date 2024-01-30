@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-screen=pygame.display.set_mode([640,480])           #joonista aken suurusega 300x300px
+screen=pygame.display.set_mode([640,480])                #joonista aken suurusega 640x480px
 pygame.display.set_caption("Ülesanne2 - Raivo Arras")    #Akna pealkirja määramine
 
 #piltide lisamine
@@ -11,7 +11,7 @@ seller = pygame.image.load("seller.png")                        #tegelase pildi 
 seller = pygame.transform.scale(seller, [257, 305])        #tegelase pildi suuruse määramine
 chat = pygame.image.load("chat.png")                            #jutumulli pildi laadimine
 chat = pygame.transform.scale(chat, [258, 202])            #jutumulli pildi suuruse määramine
-font = pygame.font.Font(pygame.font.match_font('arial'), 24)    #teksti fondi ja suuruse määramine
+font = pygame.font.Font(pygame.font.match_font('arial'), 20)    #teksti fondi ja suuruse määramine
 tekst = font.render("Tere, olen Raivo Arras", True, [255,255,255])  #teksi sisu ja värvi määramine
 
 screen.blit(bg,[0,0])           #taustapildi kuvamine

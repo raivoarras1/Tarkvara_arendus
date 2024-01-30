@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4040bf75-e40e-475d-8210-a69d5092a63d" name="Changes" comment="Tarvara_arendus">
-      <change afterPath="$PROJECT_DIR$/Ylesanne_1/Foor_Raivo_Arras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ylesanne_1/Lumemees_Raivo_Arras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ylesanne_2/Ylesanne2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ylesanne_2/bg_shop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ylesanne_2/chat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ylesanne_2/seller.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ylesanne_2/Ylesanne2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ylesanne_2/Ylesanne2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ylesanne_3/Ylesanne3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ylesanne_3/Ylesanne3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,14 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Ylesanne2.executor": "Run",
+    "Python.Ylesanne3.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,7 +88,42 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1706554895809</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Tarvara_arendus">
+      <option name="closed" value="true" />
+      <created>1706555518615</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1706555518615</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Tarvara_arendus">
+      <option name="closed" value="true" />
+      <created>1706555580836</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1706555580836</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Tarvara_arendus">
+      <option name="closed" value="true" />
+      <created>1706555594323</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1706555594323</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Tarvara_arendus">
+      <option name="closed" value="true" />
+      <created>1706555623645</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1706555623645</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Tarvara_arendus">
+      <option name="closed" value="true" />
+      <created>1706555995649</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1706555995649</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
