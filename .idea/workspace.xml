@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4040bf75-e40e-475d-8210-a69d5092a63d" name="Changes" comment="Tarvara_arendus">
+      <change afterPath="$PROJECT_DIR$/Ylesanne_4/Ylesanne4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ylesanne_2/Ylesanne2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ylesanne_2/Ylesanne2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ylesanne_3/Ylesanne3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ylesanne_3/Ylesanne3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
   "keyToString": {
     "Python.Ylesanne2.executor": "Run",
     "Python.Ylesanne3.executor": "Run",
+    "Python.Ylesanne4.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -123,7 +124,21 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1706555995649</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Tarvara_arendus">
+      <option name="closed" value="true" />
+      <created>1706591808068</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1706591808068</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Tarvara_arendus">
+      <option name="closed" value="true" />
+      <created>1706591845514</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1706591845514</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

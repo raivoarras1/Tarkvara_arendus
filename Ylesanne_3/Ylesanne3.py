@@ -8,7 +8,7 @@ def ruudustik(screen, mode, cell_size, color):      #funktsioon ruudustiku jooni
             #joonista ruut koordinaadiga (i, j) ja suurusega cell_size
             pygame.draw.rect(screen, color, [i, j, cell_size, cell_size], 1)
             i += cell_size                          #liigu cell_size võrra paremale
-        j += cell_size                              #liigu cell_size võrra alla
+        j += cell_size                              #kui rida on täis, siis liigu cell_size võrra alla
         i = 0                                       #liigu tagasi rea algusesse
 
 pygame.init()
@@ -20,13 +20,13 @@ blue = [0, 0, 255]
 yellow = [255, 255, 0]
 
 #Ekraani parameetrid
-mode = [640, 480]                                       #suurus, mida kasutada joonistamisel
-pygame.display.set_caption("Ülesanne3 - Raivo Arras")   #pealkiri
-screen = pygame.display.set_mode(mode)                  #suurus
-screen.fill([153, 255, 153])                            #taustavärv
+mode = [640, 480]                                       #akna suurus, mida kasutada
+pygame.display.set_caption("Ülesanne3 - Raivo Arras")   #akna pealkiri
+screen = pygame.display.set_mode(mode)                  #akna loomine
+screen.fill([153, 255, 153])                            #akna taustavärv
 
 cell_size = 20                                          #ruudu suuruse valimine
-color = red                                            #joone värvi valimine
+color = red                                             #joone värvi valimine
 ruudustik(screen, mode, cell_size, color)               #ruudustiku joonistamine
 
 pygame.display.flip()                                   #ekraanipildi värskendamine
