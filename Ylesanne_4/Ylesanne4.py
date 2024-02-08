@@ -41,7 +41,7 @@ while running:
 
     # punase auto liigutamine vastavalt sellele, kas sinine auto jääb talle ette
     difference_x = bluX - redX              # võrdle autode x-koordinaate
-    if redX > 185 and redX < 410:           # kui punane auto on raja keskosas
+    if redX in range (185, 410):            # kui punane auto on raja keskosas
         serv = 0                            # siis servad ei ole ohtlikud
 
     if difference_x in range (-45, 0):      # kui autod on kokku põrkamas ja sinine auto on vasakul
