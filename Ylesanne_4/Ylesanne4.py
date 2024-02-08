@@ -18,7 +18,8 @@ blue_car = pygame.image.load("f1_blue.png")              # sinise auto pildi laa
 # Esimese sinise auto algkoordinaadi genereerimine, et mahuks rajale ja alustaks raja algusest
 bluX, bluY = random.randint(145, 450), 0
 
-speedY = 5      #autode liikumiskiirus
+speedY = 5      # autode liikumiskiirus
+taustY = 0      # tausta algne y-koordinaat
 
 # akna lahti hoidmine kuniks ristist suletakse
 running = True
@@ -31,6 +32,9 @@ while running:
 
     screen.blit(blue_car, [bluX,bluY])     # sinise auto kuvamine ekraanile
     bluY += speedY                              # sinise auto y-koordinaadi muutmine vastavalt kiirusele
+    taustY += speedY * 2                        # tausta liigutamine 2x kiiremini, kui autode liikumine
+    if taustY > 480:                            # kui taust on liikunud pildist välja
+        taustY = 0                              # siis resetitakse tausta y-koordinaat
 
     # kui sinine auto jõuab ekraani lõppu
     if bluY > screenY:
@@ -62,7 +66,8 @@ while running:
 
     kuva_skoor = font.render("Skoor: " + str(skoor), True, [0, 0, 0]) # skoori teksti loomine
     pygame.display.flip()                                    # akna värskendamine
-    screen.blit(bg, [0, 0])                             # taustapildi kuvamine/värskendamine
+    screen.blit(bg, [0, taustY])                        # taustapildi kuvamine/värskendamine
+    screen.blit(bg, [0, taustY - 480])                  # teise taustapildi kuvamine/värskendamine,et taust ei katkeks
     screen.blit(red_car, [redX, 380])                   # punase auto pildi kuvamine/värskendamine
     screen.blit(kuva_skoor, [530, 30])                  # skoori teksti kuvamine/värskendamine
 
